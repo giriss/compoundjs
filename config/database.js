@@ -6,6 +6,7 @@ module.exports =
     { "driver":   "memory"
     }
   , "production":
-    { "driver":   "memory"
+    { driver:   "mongodb"
+    , url:      "mongodb://admin:Neha1803@oceanic.mongohq.com:10002/app23431960"
     }
   };
