@@ -11,6 +11,7 @@
   , "compoundjs": "latest"
   , "coffee-script": ">= 1.1.1"
   , "stylus": "latest"
+  , "node-sass": "latest"
   , "seedjs": "latest"
   , "co-assets-compiler": "*"
   },
