@@ -22,15 +22,15 @@
 */
 
 var Post = describe('Post', function () {
-    property('title', String);
-    property('body', String);
+    property('title', String, { index: true });
+    property('body', String, { index: true });
     set('restPath', pathTo.posts);
 });
 
 var User = describe('User', function () {
-    property('name', String);
-    property('email', String);
-    property('age', Number);
+    property('name', String, { index: true });
+    property('email', String, { index: true });
+    property('age', Number, { index: true });
     set('restPath', pathTo.users);
 });
 

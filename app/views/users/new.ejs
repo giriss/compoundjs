@@ -7,7 +7,6 @@
 <div class="page-header">
     <h1>New user</h1>
 </div>
-
 <% var form = formFor(user, {action: pathTo.users(), method: 'POST', id: "user-form", class: 'form-horizontal'}) %>
 <%- form.begin() %>
 <%- include _form %>
