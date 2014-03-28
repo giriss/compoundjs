@@ -1,10 +1,10 @@
 module.exports = 
   { "development":
-    { "driver":   "memory"
-//      driver:   "redis"
-//    , host:     "pub-redis-13848.us-east-1-3.3.ec2.garantiadata.com"
-//    , port:     13848
-//    , password: "wV2xV3z8IolVrla5"
+    {// "driver":   "memory"
+      driver:   "redis"
+    , host:     "pub-redis-13848.us-east-1-3.3.ec2.garantiadata.com"
+    , port:     13848
+    , password: "wV2xV3z8IolVrla5"
     }
   , "test":
     { "driver":   "memory"

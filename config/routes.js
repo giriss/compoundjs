@@ -1,4 +1,6 @@
 exports.routes = function (map) {
+    map.resources('users');
+
     map.get('/', 'welcome#index', {as: 'root'});
     map.get('welcome', 'welcome#index', {as: 'welcome'});
     map.resources('posts');

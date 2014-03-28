@@ -27,3 +27,10 @@ var Post = describe('Post', function () {
     set('restPath', pathTo.posts);
 });
 
+var User = describe('User', function () {
+    property('name', String);
+    property('email', String);
+    property('age', Number);
+    set('restPath', pathTo.users);
+});
+
